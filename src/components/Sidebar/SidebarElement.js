@@ -25,6 +25,8 @@ export const MyPhoto = styled.img`
     height: 150px;
     width: 150px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
 `
 export const MyName = styled.div`
     margin-top: 20px;

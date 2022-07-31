@@ -15,13 +15,14 @@ import {
 } from './SidebarElement'
 import 'mac-scrollbar/dist/mac-scrollbar.css';
 import Typewriter from 'typewriter-effect'
+import myphoto from '../../images/13938219_1834355563461366_7360387684016000667_o.jpg'
 
 const Sidebar = ({about,setAbouth}) => {
   return (
     <Container about={about}>
       <Wrapper>
         <ProfileContainer>
-          <MyPhoto src='https://www.finearts.cmu.ac.th/wp-content/uploads/2021/07/blank-profile-picture-973460_1280-1.png'/>
+          <MyPhoto src={myphoto}/>
           <MyName>
             <Typewriter
               options={{
