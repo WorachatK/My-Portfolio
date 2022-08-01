@@ -51,7 +51,7 @@ const Sidebar = ({about,setAbouth}) => {
               Industrial Engineering but I am interested in
               program development and computer language.
               So I started to study computer languages After graduating from college.
-              I have experien in React libraly
+              I have experience in React library
             </AboutText>
           </AboutContainer>
 
@@ -91,6 +91,12 @@ const Sidebar = ({about,setAbouth}) => {
               </AboutTextLI>
               <AboutTextLI>
                 HTML
+              </AboutTextLI>
+              <AboutTextLI>
+                NodeJS
+              </AboutTextLI>
+              <AboutTextLI>
+                MongoDB , Firebase
               </AboutTextLI>
             </AboutTextUL>
           </AboutContainer>
